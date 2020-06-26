@@ -1,0 +1,118 @@
+/*Hints:
+
+Untuk mengerjakan challenge di atas beberapa syntax CSS yang dipakai di antaranya:
+* color
+* font-size
+* font-family
+* background
+* font-weight
+* text-align
+* text-decoration
+* position*/
+
+
+
+body {
+    background-image: url('/img/pattern.jpg');
+    /* background-size: cover; */
+    font-family: sans-serif;
+    margin-left: 0;
+}
+
+header {
+    overflow: hidden;
+    background-color: #ffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: auto;
+
+}
+
+header img {
+    float: left;
+}
+
+header nav {
+    float: right;
+    padding: 0 0px;
+}
+
+header nav ul li {
+    display: inline;
+    padding-right: 20px;
+}
+
+
+
+
+nav li {
+    display: inline;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    font-family: monospace;
+}
+
+
+
+/* 
+
+/* header li {
+    margin: 20px;
+
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+} */
+
+section {
+
+    margin-top: 80px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
+section h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif\;
+}
+
+#article-list {
+    margin-top: 40px;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+article {
+    margin-bottom: 20px;
+    Border-bottom: 0.5px solid black;
+
+}
+
+article h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif\;
+}
+
+article a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 3px 0 3px 0;
+    position: static;
+}

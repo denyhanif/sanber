@@ -1,0 +1,163 @@
+body {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    background-color: #2b2e4a;
+    overflow-x: hidden;
+
+}
+
+nav button {
+    color: white;
+    background-color: tomato !important;
+}
+
+.navbar {
+    background-color: #e84545;
+    height: 100px;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-item.active a {
+    color: #f9b234 !important;
+    font-weight: 500;
+
+}
+
+.menu {
+
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: #e84545;
+    height: fit-content;
+}
+
+
+.menu ul {
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li a {
+    color: #e84545;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding-left: 50px;
+    padding-right: 30px;
+
+    display: flex;
+    align-content: space-between;
+    align-self: baseline;
+    text-decoration: none;
+    text-align: center;
+}
+
+.jumbotron {
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+    background-image: url("/img/banner/3.jpg");
+    background-size: cover;
+}
+
+.carrousel-item img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    font-family: sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+
+    background-color: #e84545;
+    color: whitesmoke;
+}
+
+.card a:hover {
+    font-family: monospace;
+    text-decoration: none;
+    color: #2b2e4a;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    width: 110px;
+    height: 25rem;
+    background-color: #f9b234;
+
+}
+
+.shop {
+    align-content: flex-end;
+}
+
+.card a {
+    font-family: monospace;
+
+    text-decoration: none;
+    color: #e84545;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    width: 110px;
+    height: 25rem;
+    background-color: #2b2e4a;
+}
+
+.navbar-nav a {
+    color: #2b2e4a;
+    font-size: 0.8rem;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.form-inline {
+    background-color: #2b2e4a;
+}
+
+.inikanan {
+    width: 100%;
+    height: 300px;
+    background-color: #e84545;
+    border-radius: 5px;
+    border: 1px #fff;
+    margin-bottom: 20px;
+}
+
+.garis {
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #fff;
+}
+
+.sosmed h1 {
+    color: #2b2e4a;
+
+    text-align: center;
+}
+
+.sosmed a {
+    background-color: transparent;
+}
+
+
+
+hr {
+    height: 10px;
+}
