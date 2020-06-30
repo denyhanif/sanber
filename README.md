@@ -1,1 +1,1 @@
-# santai berkualiras
+# santai berkualitas
